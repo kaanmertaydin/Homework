@@ -45,8 +45,8 @@ int main()
                 }
             }
             fputs(Cipher,pOutput);
-            
         }
+        printf("Sifreleme Tamamlandi");
     }
     else if(select == 2)
     {
@@ -72,6 +72,7 @@ int main()
             }
             fputs(DeCipher,pOutput3);
         }
+        printf("Sifre Cozme Tamamlandi");
     }
     else
     {
